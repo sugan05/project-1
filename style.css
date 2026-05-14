@@ -1,0 +1,163 @@
+
+* {
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-color: #27ae60; */
+
+}
+
+body {
+    color: orange;
+    background-color: black;
+}
+.page{
+    /* background-color: #27ae60; */
+    width: 100%;
+}
+.container {
+    width: 1100px;
+    margin-left:60px;
+    padding: 0px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: orange;
+    
+}
+header {
+    background:lightgreen;
+    padding:2px;
+    position: fixed;
+    z-index: 1000;
+    box-shadow: 0px 10px 10px ;
+    width: 100%;
+}
+nav {
+/* border: 2px solid black; */
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    /* background: #333; */
+    padding: 0 5%;
+    height: 70px;
+    /* gap: 80px; */
+    /* left: auto; */
+    /* background-image: url(./LOGO\ copy.png); */
+    /* background-size: ; */
+}
+.logo{
+    color: rgb(49, 49, 103);
+    font-weight: 60px;
+    font-style:inherit;
+    font-size: 30px;
+    text-align: center;
+    padding-left: auto;
+    }
+
+
+
+/* .logo span {
+    color: lightgreen;
+} */
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 40px;
+}
+
+nav ul li a  {
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    color: orange;
+    /* font-weight: 500; */
+    transition: 0.3s;
+    padding: 8px 10px;
+}
+
+nav ul li a:hover {
+    color: rgb(33, 17, 102);
+}
+
+.hexa{
+    height: 80vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+    url(./Photovoltaic-Systems.jpg) no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.hexa h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+.hexa p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+.octal{
+    display: inline-block;
+    background: #27ae60;
+    color: rgb(25, 16, 60);
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.octal-main:hover {
+    background: lightgreen;
+}
+.services {
+    padding: 80px 0;
+}
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+.service-card {
+    background: lightgreen;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 6px 6px rgba(0,0,0,0.05);
+    border-bottom: 4px solid rgb(107, 39, 168);
+}
+.contact {
+    padding: 20px;
+    background: lightgray;
+    text-align: center;
+}
+.contact-box {
+    max-width: 600px;
+    margin: 40px auto;
+}
+input, textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #714141;
+    border-radius: 5px;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background: lightslategray;
+    color: white;
+}
